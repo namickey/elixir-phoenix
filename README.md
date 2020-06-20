@@ -22,6 +22,27 @@ cd hello
 mix phx.server
 ```
 
+# access
+http://localhost:4000
+
+# stop
+```
+ctrl + c
+ctrl + c
+```
+
+# Hello World
+```
+lib/hello_web/router.ex
+lib/hello_web/controllers/hello_controller.ex
+lib/hello_web/views/hello_view.ex
+lib/hello_web/templates/hello/index.html.eex
+
+mix phx.server
+http://localhost:4000/hello
+```
+
+
 # ls
 ```
 README.md  _build  assets  config  deps  lib  mix.exs  mix.lock  priv  test
