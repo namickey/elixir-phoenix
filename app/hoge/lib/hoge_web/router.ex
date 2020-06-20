@@ -18,6 +18,8 @@ defmodule HogeWeb.Router do
     get "/", PageController, :index
 
     get "/hello", HelloController, :index
+    get "/bye", ByeController, :index
+    get "/bye/:name", ByeController, :index
   end
 
   # Other scopes may use custom stacks.

@@ -42,6 +42,18 @@ mix phx.server
 http://localhost:4000/hello
 ```
 
+# Bye World
+```
+lib/hello_web/router.ex
+lib/hello_web/controllers/bye_controller.ex
+lib/hello_web/views/bye_view.ex
+lib/hello_web/templates/bye/bye.html.eex
+
+mix phx.server
+http://localhost:4000/bye
+http://localhost:4000/bye/alice
+http://localhost:4000/bye/bob
+```
 
 # ls
 ```
