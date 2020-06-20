@@ -1,10 +1,12 @@
 # elixir-phoenix
 Elixir + Phoenix + Docker
 
-# commnad
+# Command @Host
 ```
 docker run -it -v $PWD:/app -p 4000:4000 elixir bash
-
+```
+# Command @Docker
+```
 apt update
 apt install -y nodejs npm
 npm install n -g
@@ -40,4 +42,9 @@ erl_crash.dump
 /assets/node_modules
 ```
 
+# build if checkout from git
+```
 mix deps.get
+cd assets
+npm install
+```
