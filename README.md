@@ -55,6 +55,20 @@ http://localhost:4000/bye/alice
 http://localhost:4000/bye/bob
 ```
 
+# Bootstrap
+```
+cd assets
+npm install jquery popper.js bootstrap@4.5.0
+
+assets/css
+assets/css/app.scss
+assets/js/app.js
+lib/hoge_web/templates/bye/bye.html.eex
+
+mix phx.server
+http://localhost:4000/bye
+```
+
 # ls
 ```
 README.md  _build  assets  config  deps  lib  mix.exs  mix.lock  priv  test
